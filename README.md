@@ -1,2 +1,2 @@
 # WEATHER-APPLICATION
-gives weather application of a place
+gives weather of a place
