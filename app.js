@@ -1,6 +1,6 @@
 let getWeatherInfo = async (city) => {
   try{
-    let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1dd41776b2c134d36ddee10b4c123a54&units=metric`;
+    let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=&units=metric`;
   let res = await axios.get(weatherUrl);
   return res;
   }
